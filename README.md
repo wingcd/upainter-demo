@@ -126,14 +126,32 @@ Paint solid color to texture
 > Softness
 > </div> 
 >  
-> <b>Noise Rate:</b> mask brush with noise, can use this property to simulation uneven effect,such as crayon pen, only value bigger than 0 can be effective,value Range(0,1)
+> <b>Noise Rate:</b> mask brush with noise, can use this property to simulation uneven effect,such as crayon pen, only value bigger than 0 can be effective,value Range(0,1)  
 > <b>Noise Size:</b> set the noise size, only noise rate bigger than 0 can be effective,value Range(0,1)  
+> 
 > <div align=center>  
 > <img src="./images/brush-1-4.png"> </img>  
 > <br/>  
 > Noise
 > </div> 
 >  
+<b>Paint Mode:</b> Brush paint mode, has Dash/Line mode
+> 
+> <div align=center>  
+> <img src="./images/brush-1-5.png"> </img>  
+> <br/>  
+> Paint Mode
+> </div> 
+>  
+<b>Cap Style:</b> Brush cap styles, has Flat/Round mode
+> 
+> <div align=center>  
+> <img src="./images/brush-1-6.png"> </img>  
+> <br/>  
+> Cap Style
+> </div> 
+>  
+<b>Line Joint Style:</b> When line paint mode,the corner mode, has /Sharp/Round mode
 
 ## Texture brush
 ## Graphic brush
