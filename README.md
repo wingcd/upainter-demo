@@ -1,4 +1,7 @@
 # 1. Introduction
+> You can use right now on:  
+> [Online Demo](https://wingcd.github.io/upainter-demo/samples/)
+
 This is a texture paint toolset,you can use in Unity RawImage/Mesh Texture/Unity Edtior UI/other UI system;
 <div align=center>
  <img src="./images/intro-1.png"> </img>
@@ -23,13 +26,14 @@ This is a texture paint toolset,you can use in Unity RawImage/Mesh Texture/Unity
 * Texture brush
 * Graphic brush
 * Composite brush
+* Fill Tool
 * More blend type
-* With post effect
+* Post effect
 * Undo/Redo
 # 2. Quick Start
 ## Use Samples
-* Go to dir "uPainter/Samples" 
-* Open a sample scene file
+* Open demo scene "uPainter/Samples/Samples.unity" 
+* Click one sample
 * Draw on canvas
 ## Create Scene 
 * Create a new scene
