@@ -81,6 +81,13 @@ Paint solid color to texture
 
 > <b>Brush Color:</b> color of brush  
 > <b>Size:</b> size of brush,value Range(0,1) 
+>  
+> <div align=center>  
+> <img src="./images/brush-1-8.png"> </img>  
+> <br/>  
+> Brush Size 
+> </div> 
+> 
 > <b>Point Distance Interval:</b> the minimum distance of last two points  
 > <b>Self Overlay:</b> whether or not overlay self in on paint life circle    
 > <div align=center>  
@@ -135,7 +142,7 @@ Paint solid color to texture
 > Noise
 > </div> 
 >  
-<b>Paint Mode:</b> Brush paint mode, has Dash/Line mode
+> <b>Paint Mode:</b> Brush paint mode, has Dash/Line mode
 > 
 > <div align=center>  
 > <img src="./images/brush-1-5.png"> </img>  
@@ -143,7 +150,7 @@ Paint solid color to texture
 > Paint Mode
 > </div> 
 >  
-<b>Cap Style:</b> Brush cap styles, has Flat/Round mode
+> <b>Cap Style:</b> Brush cap styles, has Flat/Round mode
 > 
 > <div align=center>  
 > <img src="./images/brush-1-6.png"> </img>  
@@ -151,9 +158,34 @@ Paint solid color to texture
 > Cap Style
 > </div> 
 >  
-<b>Line Joint Style:</b> When line paint mode,the corner mode, has /Sharp/Round mode
+> <b>Line Joint Style:</b> The corner style just effect in line paint mode, has Round/Flat/Sharp mode
+> 
+> <div align=center>  
+> <img src="./images/brush-1-7.png"> </img>  
+> <br/>  
+> Line Joint Style
+> </div> 
+>  
 
 ## Texture brush
+Paint texture to target texture
+
+<div align=center>  
+<img src="./images/brush-2.png"> </img>  
+<br/>  
+Texture brush
+</div> 
+
+> <b>Brush Texture:</b> The brush texture
+> <b>Rotate Angle:</b> Anticlockwise angle in degree of brush texture
+> 
+> <div align=center>  
+> <img src="./images/brush-2-1.png"> </img>  
+> <br/>  
+> Rotate 30 degree
+> </div> 
+>  
+
 ## Graphic brush
 ## Composite brush
 ## Post effect
