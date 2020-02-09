@@ -264,7 +264,7 @@ Composite brush
 > <div align=center>  
 > <img src="./images/brush-4-1.png"> </img>  
 > <br/>  
-> Line count is 4
+> Composite brush
 > </div> 
 >  
 
@@ -275,7 +275,7 @@ When paint done, post effect will process the texture, add effect to the result,
 <div align=center>  
 <img src="./images/post-effect.png"> </img>  
 <br/>  
-Composite brush  
+Post effect  
 </div>
 
 ## Undo/Redo 
