@@ -1,5 +1,7 @@
 # 1. Introduction
-> You can use right now on:  
+> Get on:  
+> [Sales on Unity Assets Store](http://u3d.as/1L3t)  
+> Experience right now on:  
 > [Online Demo](https://wingcd.github.io/upainter-demo/samples/)
 
 This is a texture paint toolset,you can use in Unity RawImage/Mesh Texture/Unity Edtior UI/other UI system;
@@ -126,7 +128,7 @@ Paint solid color to texture
 > Some blend modes  
 > </div> 
 >  
-> <b>Softness:</b> softness of brush, value Range(0,1),default is 0>  
+> <b>Softness:</b> softness of brush,useful highlight effect, value Range(0,1),default is 0    
 > <div align=center>  
 > <img src="./images/brush-1-3.png"> </img>  
 > <br/>  
@@ -176,8 +178,8 @@ Paint texture to target texture
 Texture brush
 </div> 
 
-> <b>Brush Texture:</b> The brush texture
-> <b>Rotate Angle:</b> Anticlockwise angle in degree of brush texture
+> <b>Brush Texture:</b> The brush texture  
+> <b>Rotate Angle:</b> Anticlockwise angle in degree of brush texture  
 > 
 > <div align=center>  
 > <img src="./images/brush-2-1.png"> </img>  
@@ -185,8 +187,102 @@ Texture brush
 > Rotate 30 degree
 > </div> 
 >  
+> <b>Rotate Fllow Direction:</b> When in dash mode, the texture will rotate by the direction between two points  
+> <b>Tilling:</b> Repeat count of texture, when enable global uv,the tilling means global repeat count,Range(0,1)
+> 
+> <div align=center>  
+> <img src="./images/brush-2-2.png"> </img>  
+> <br/>  
+> Tilling sample
+> </div> 
+>  
+> <b>Offset:</b> Offset of texture uv,Range(0,1)
+> 
+> <div align=center>  
+> <img src="./images/brush-2-3.png"> </img>  
+> <br/>  
+> Offset sample
+> </div> 
+>  
+> <b>Enable Gloable UV:</b> Use global texture uv,effected by brush size,can use to mosaic effect
+> 
+> <div align=center>  
+> <img src="./images/brush-2-4.png"> </img>  
+> <br/>  
+> Enable gloabl uv
+> </div> 
+>  
+> <b>Enable Gloable Reapeat Count:</b> If true, will ignore brush size, only effected by tilling value
+> 
+> <div align=center>  
+> <img src="./images/brush-2-5.png"> </img>  
+> <br/>  
+> Global reapeat
+> </div> 
+>  
+> 
+> <div align=center>  
+> <img src="./images/brush-2-6.png"> </img>  
+> <br/>  
+> Global reapeat & set tilling
+> </div> 
+>  
+> <div align=center>  
+> <img src="./images/brush-2-7.png"> </img>  
+> <br/>  
+> Global reapeat & set offset 
+> </div> 
+>  
 
-## Graphic brush
+## Graphic/Line brush
+Use GL mode to draw lines,can paint lines to texture
+<div align=center>  
+<img src="./images/brush-3.png"> </img>  
+<br/>  
+Texture brush  
+</div> 
+
+> <b>Line Count:</b> The count of lines  
+> 
+> <div align=center>  
+> <img src="./images/brush-3-1.png"> </img>  
+> <br/>  
+> Line count is 4
+> </div> 
+>  
+
 ## Composite brush
+This is a brush group effect brush,can overlay many brush effect in one paint
+<div align=center>  
+<img src="./images/brush-4.png"> </img>  
+<br/>  
+Composite brush  
+</div>
+
+> <b>Brushes:</b> Composite's sub brushes, overlay order by array index
+> 
+> <div align=center>  
+> <img src="./images/brush-4-1.png"> </img>  
+> <br/>  
+> Line count is 4
+> </div> 
+>  
+
 ## Post effect
-## Undo/Redo
+When paint done, post effect will process the texture, add effect to the result,the effect can be multiple in brush, inner effect has:
+> * <p>Blur Brush Post</p>  
+> * <p>Outline Brush Post</p>  
+<div align=center>  
+<img src="./images/post-effect.png"> </img>  
+<br/>  
+Composite brush  
+</div>
+
+## Undo/Redo 
+PainterOperation is a undo/redo system, default max undo/redo step is 10, you can extend this system to save command result to disk,so you can use limitless undo/redo operate;  
+Sample undo/redo code:
+
+```csharp
+PainterOperation.Instance.Undo()
+PainterOperation.Instance.Redo()
+```
