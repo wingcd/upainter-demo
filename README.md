@@ -128,6 +128,13 @@ Paint solid color to texture
 > Some blend modes  
 > </div> 
 >  
+> <b>Pixel Mode:</b> If true, the input uv will be modify clamp to pixel cell,  the layer filter mode must be point, then can get perfect effect, and you need set a correct layer and brush size    
+> <div align=center>  
+> <img src="./images/brush-1-9.png"> </img>  
+> <br/>  
+> Pixel mode  
+> </div> 
+>  
 > <b>Softness:</b> softness of brush,useful highlight effect, value Range(0,1),default is 0    
 > <div align=center>  
 > <img src="./images/brush-1-3.png"> </img>  
