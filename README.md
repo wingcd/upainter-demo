@@ -278,6 +278,29 @@ When paint done, post effect will process the texture, add effect to the result,
 Post effect  
 </div>
 
+## Drawer
+<div align=center>  
+<img src="./images/drawer.png"> </img>  
+<br/>  
+Drawer 
+Painter interaction proxy, will handle touch input
+
+> <b>Replace Brush:</b> When canvas is empty, this property will set to canvas brush  
+> <b>Show Preview:</b> If true, will show cursor on texture  
+> <b>Simulate Pressure:</b> If true, will simulate the pressure, distance between two points is more larger ,the size will more small;  
+> There has interface to extend, you owen simulate method, even use real touch sensor data;    
+> 
+> <div align=center>  
+> <img src="./images/drawer-1.png"> </img>  
+> <br/>  
+> Simulate pressure
+> </div> 
+>  
+> <b>Brush Pressure Strength:</b> The strength of pressure, the value is more larger, the line will more thinner, value range(0,1)    
+> <b>Corner Smooth:</b> Corner smooth strength, value range(0,0.5)  
+> <b>Use Shader Smooth:</b> If true, use shader bezier curve, or calucate in cpu, Graphic/Line Brush do not support shader smooth  
+> <b>Curve Interpolation:</b> Only when do not use shader smooth mode, will decide how many segments number of the bezier curve, the value is larger, the line will more smooth, and need more caculation,value range(0,5)  
+
 ## Undo/Redo 
 PainterOperation is a undo/redo system, default max undo/redo step is 10, you can extend this system to save command result to disk,so you can use limitless undo/redo operate;  
 Sample undo/redo code:
