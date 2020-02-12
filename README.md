@@ -290,7 +290,7 @@ Post effect
 <img src="./images/drawer.png"> </img>  
 <br/>  
 Drawer 
-Painter interaction proxy, will handle touch input
+Painter interaction proxy, will handle touch input, we use drawer to create more texture painter, like raw image drawer, other ui system drawer and mesh drawer(need mesh collider)
 
 > <b>Replace Brush:</b> When canvas is empty, this property will set to canvas brush  
 > <b>Show Preview:</b> If true, will show cursor on texture  
