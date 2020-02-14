@@ -37,9 +37,12 @@ This is a texture paint toolset,you can use in Unity RawImage/Mesh Texture/Unity
 * Undo/Redo
 # 2. Quick Start
 ## Use Samples
+* Import uPainter package into your project
+* After compiled, click menu "uPainter/AddSamples" to add samples scenes to Build Setting, ensure you can run the samples correctly
 * Open demo scene "uPainter/Samples/Samples.unity" 
 * Click one sample
 * Draw on canvas
+* Editor sample just click menu "uPainter/EditorDemo"
 ## How to use 
 * Create a new scene
 * Add a Empty Object in Canvas, and stretch to fit size
