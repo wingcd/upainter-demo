@@ -6,19 +6,19 @@
 
 This is a texture paint toolset,you can use in Unity RawImage/Mesh Texture/Unity Edtior UI/other UI system;
 <div align=center>
- <img src="./images/intro-1.png"> </img>
+ <img src="./images/intro-1.png"/>
  <br/>
  Raw Image
 </div>
 
 <div align=center>
- <img src="./images/intro-2.png"> </img>
+ <img src="./images/intro-2.png"/>
  <br/>
  Draw on mesh
 </div>
 
 <div align=center>
- <img src="./images/intro-3.png"> </img>
+ <img src="./images/intro-3.png"/>
  <br/>
  Draw in editor
 </div>
@@ -47,14 +47,14 @@ This is a texture paint toolset,you can use in Unity RawImage/Mesh Texture/Unity
 * Create a new scene
 * Add a Empty Object in Canvas, and stretch to fit size
 <div align=center>
- <img src="./images/create-1.png"> </img>
+ <img src="./images/create-1.png"/>
  <br/>
  Create Empty GameObject
 </div>
 
 * Add RawImagePaintCanvas to this 
 <div align=center>
- <img src="./images/create-2.png"> </img>
+ <img src="./images/create-2.png"/>
  <br/>
  Add RawImagePaintCanvas component
 </div>
@@ -62,7 +62,7 @@ This is a texture paint toolset,you can use in Unity RawImage/Mesh Texture/Unity
 * Create a solid brush:in assets window, click right mouse button, select in path "Create/uPainter/SolidBrush"
 * Modify brush's attributes
 <div align=center>
- <img src="./images/create-3.png"> </img>
+ <img src="./images/create-3.png"/>
  <br/>
  Create solid brush
 </div>
@@ -70,7 +70,7 @@ This is a texture paint toolset,you can use in Unity RawImage/Mesh Texture/Unity
 * Assign the solid brush to RawImagePaintCanvs's "Brush" property
 * Draw on canvas
 <div align=center>
- <img src="./images/create-4.png"> </img>
+ <img src="./images/create-4.png"/>
  <br/>
  Assign brush & Draw
 </div>
@@ -79,7 +79,7 @@ This is a texture paint toolset,you can use in Unity RawImage/Mesh Texture/Unity
 ## Solid brush 
 Paint solid color to texture
 <div align=center>
- <img src="./images/brush-1.png"> </img>
+ <img src="./images/brush-1.png"/>
  <br/>
  Solid brush
 </div>
@@ -88,7 +88,7 @@ Paint solid color to texture
 > <b>Size:</b> size of brush,value Range(0,1) 
 >  
 > <div align=center>  
-> <img src="./images/brush-1-8.png"> </img>  
+> <img src="./images/brush-1-8.png"/>  
 > <br/>  
 > Brush Size 
 > </div> 
@@ -96,7 +96,7 @@ Paint solid color to texture
 > <b>Point Distance Interval:</b> the minimum distance of last two points  
 > <b>Self Overlay:</b> whether or not overlay self in on paint life circle    
 > <div align=center>  
-> <img src="./images/brush-1-1.png"> </img>  
+> <img src="./images/brush-1-1.png"/>  
 > <br/>  
 > Self Overlay  
 > </div>  
@@ -126,21 +126,21 @@ Paint solid color to texture
 > * Add  
 >  
 > <div align=center>  
-> <img src="./images/brush-1-2.png"> </img>  
+> <img src="./images/brush-1-2.png"/>  
 > <br/>  
 > Some blend modes  
 > </div> 
 >  
 > <b>Pixel Mode:</b> If true, the input uv will be modify clamp to pixel cell,  the layer filter mode must be point, then can get perfect effect, and you need set a correct layer and brush size    
 > <div align=center>  
-> <img src="./images/brush-1-9.png"> </img>  
+> <img src="./images/brush-1-9.png"/>  
 > <br/>  
 > Pixel mode  
 > </div> 
 >  
 > <b>Softness:</b> softness of brush,useful highlight effect, value Range(0,1),default is 0    
 > <div align=center>  
-> <img src="./images/brush-1-3.png"> </img>  
+> <img src="./images/brush-1-3.png"/>  
 > <br/>  
 > Softness
 > </div> 
@@ -149,7 +149,7 @@ Paint solid color to texture
 > <b>Noise Size:</b> set the noise size, only noise rate bigger than 0 can be effective,value Range(0,1)  
 > 
 > <div align=center>  
-> <img src="./images/brush-1-4.png"> </img>  
+> <img src="./images/brush-1-4.png"/>  
 > <br/>  
 > Noise
 > </div> 
@@ -157,7 +157,7 @@ Paint solid color to texture
 > <b>Paint Mode:</b> Brush paint mode, has Dash/Line mode
 > 
 > <div align=center>  
-> <img src="./images/brush-1-5.png"> </img>  
+> <img src="./images/brush-1-5.png"/>  
 > <br/>  
 > Paint Mode
 > </div> 
@@ -165,7 +165,7 @@ Paint solid color to texture
 > <b>Cap Style:</b> Brush cap styles, has Flat/Round mode
 > 
 > <div align=center>  
-> <img src="./images/brush-1-6.png"> </img>  
+> <img src="./images/brush-1-6.png"/>  
 > <br/>  
 > Cap Style
 > </div> 
@@ -173,7 +173,7 @@ Paint solid color to texture
 > <b>Line Joint Style:</b> The corner style just effect in line paint mode, has Round/Flat/Sharp mode
 > 
 > <div align=center>  
-> <img src="./images/brush-1-7.png"> </img>  
+> <img src="./images/brush-1-7.png"/>  
 > <br/>  
 > Line Joint Style
 > </div> 
@@ -183,7 +183,7 @@ Paint solid color to texture
 Paint texture to target texture
 
 <div align=center>  
-<img src="./images/brush-2.png"> </img>  
+<img src="./images/brush-2.png"/>  
 <br/>  
 Texture brush
 </div> 
@@ -192,7 +192,7 @@ Texture brush
 > <b>Rotate Angle:</b> Anticlockwise angle in degree of brush texture  
 > 
 > <div align=center>  
-> <img src="./images/brush-2-1.png"> </img>  
+> <img src="./images/brush-2-1.png"/>  
 > <br/>  
 > Rotate 30 degree
 > </div> 
@@ -201,7 +201,7 @@ Texture brush
 > <b>Tilling:</b> Repeat count of texture, when enable global uv,the tilling means global repeat count,Range(0,1)
 > 
 > <div align=center>  
-> <img src="./images/brush-2-2.png"> </img>  
+> <img src="./images/brush-2-2.png"/>  
 > <br/>  
 > Tilling sample
 > </div> 
@@ -209,7 +209,7 @@ Texture brush
 > <b>Offset:</b> Offset of texture uv,Range(0,1)
 > 
 > <div align=center>  
-> <img src="./images/brush-2-3.png"> </img>  
+> <img src="./images/brush-2-3.png"/>  
 > <br/>  
 > Offset sample
 > </div> 
@@ -217,7 +217,7 @@ Texture brush
 > <b>Enable Gloable UV:</b> Use global texture uv,effected by brush size,can use to mosaic effect
 > 
 > <div align=center>  
-> <img src="./images/brush-2-4.png"> </img>  
+> <img src="./images/brush-2-4.png"/>  
 > <br/>  
 > Enable gloabl uv
 > </div> 
@@ -225,20 +225,20 @@ Texture brush
 > <b>Enable Gloable Reapeat Count:</b> If true, will ignore brush size, only effected by tilling value
 > 
 > <div align=center>  
-> <img src="./images/brush-2-5.png"> </img>  
+> <img src="./images/brush-2-5.png"/>  
 > <br/>  
 > Global reapeat
 > </div> 
 >  
 > 
 > <div align=center>  
-> <img src="./images/brush-2-6.png"> </img>  
+> <img src="./images/brush-2-6.png"/>  
 > <br/>  
 > Global reapeat & set tilling
 > </div> 
 >  
 > <div align=center>  
-> <img src="./images/brush-2-7.png"> </img>  
+> <img src="./images/brush-2-7.png"/>  
 > <br/>  
 > Global reapeat & set offset 
 > </div> 
@@ -247,7 +247,7 @@ Texture brush
 ## Graphic/Line brush
 Use GL mode to draw lines,can paint lines to texture
 <div align=center>  
-<img src="./images/brush-3.png"> </img>  
+<img src="./images/brush-3.png"/>  
 <br/>  
 Texture brush  
 </div> 
@@ -255,7 +255,7 @@ Texture brush
 > <b>Line Count:</b> The count of lines  
 > 
 > <div align=center>  
-> <img src="./images/brush-3-1.png"> </img>  
+> <img src="./images/brush-3-1.png"/>  
 > <br/>  
 > Line count is 4
 > </div> 
@@ -264,7 +264,7 @@ Texture brush
 ## Composite brush
 This is a brush group effect brush,can overlay many brush effect in one paint
 <div align=center>  
-<img src="./images/brush-4.png"> </img>  
+<img src="./images/brush-4.png"/>  
 <br/>  
 Composite brush  
 </div>
@@ -272,7 +272,7 @@ Composite brush
 > <b>Brushes:</b> Composite's sub brushes, overlay order by array index
 > 
 > <div align=center>  
-> <img src="./images/brush-4-1.png"> </img>  
+> <img src="./images/brush-4-1.png"/>  
 > <br/>  
 > Composite brush
 > </div> 
@@ -283,14 +283,14 @@ When paint done, post effect will process the texture, add effect to the result,
 > * <p>Blur Brush Post</p>  
 > * <p>Outline Brush Post</p>  
 <div align=center>  
-<img src="./images/post-effect.png"> </img>  
+<img src="./images/post-effect.png"/>  
 <br/>  
 Post effect  
 </div>
 
 ## Drawer
 <div align=center>  
-<img src="./images/drawer.png"> </img>  
+<img src="./images/drawer.png"/>  
 <br/>  
 Drawer 
 Painter interaction proxy, will handle touch input, we use drawer to create more texture painter, like raw image drawer, other ui system drawer and mesh drawer(need mesh collider)
@@ -301,7 +301,7 @@ Painter interaction proxy, will handle touch input, we use drawer to create more
 > There has interface to extend, you owen simulate method, even use real touch sensor data;    
 > 
 > <div align=center>  
-> <img src="./images/drawer-1.png"> </img>  
+> <img src="./images/drawer-1.png"/>  
 > <br/>  
 > Simulate pressure
 > </div> 
