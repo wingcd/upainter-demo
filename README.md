@@ -32,6 +32,7 @@ This is a texture paint toolset,you can use in Unity RawImage/Mesh Texture/Unity
 * Graphic brush
 * Composite brush
 * Fill Tool
+* Pixel Mode
 * More blend type
 * Post effect
 * Undo/Redo
