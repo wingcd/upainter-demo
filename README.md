@@ -53,11 +53,11 @@ This is a texture paint toolset,you can use in Unity RawImage/Mesh Texture/Unity
  Create Empty GameObject
 </div>
 
-* Add RawImagePaint to this 
+* Add PaintRawImage to this 
 <div align=center>
  <img src="./images/create-2.png"/>
  <br/>
- Add RawImagePaint component
+ Add PaintRawImage  component
 </div>
 
 * Create a solid brush:in assets window, click right mouse button, select in path "Create/uPainter/SolidBrush"
