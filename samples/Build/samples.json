@@ -1,15 +1,11 @@
 {
 "companyName": "DefaultCompany",
 "productName": "client",
-"productVersion": "1.0",
 "dataUrl": "samples.data.unityweb",
-"wasmCodeUrl": "samples.wasm.code.unityweb",
-"wasmFrameworkUrl": "samples.wasm.framework.unityweb",
-"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
-"webglContextAttributes": {"preserveDrawingBuffer": false},
+"asmCodeUrl": "samples.asm.code.unityweb",
+"asmMemoryUrl": "samples.asm.memory.unityweb",
+"asmFrameworkUrl": "samples.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
 "splashScreenStyle": "Dark",
-"backgroundColor": "#231F20",
-"developmentBuild": false,
-"multithreading": false,
-"unityVersion": "2019.2.8f1"
+"backgroundColor": "#222C36"
 }
