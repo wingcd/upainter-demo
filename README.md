@@ -4,7 +4,7 @@
 > Experience right now on:  
 > [Online Demo](https://wingcd.github.io/upainter-demo/samples/)
 
-This is a texture paint toolset,you can use in Unity RawImage/Mesh Texture/Unity Edtior UI/other UI system;
+This is a texture paint toolset,you can use in Unity RawImage/Sprite/Mesh Texture/Unity Edtior UI/other UI system;
 <div align=center>
  <img src="./images/intro-1.png"/>
  <br/>
